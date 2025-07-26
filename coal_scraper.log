@@ -1,0 +1,23 @@
+2025-07-26 10:37:47,413 - INFO - Starting Global Coal Plant Tracker data extraction...
+2025-07-26 10:37:55,036 - WARNING - Could not find API endpoint, will try alternative methods
+2025-07-26 10:37:55,037 - INFO - API extraction failed, trying alternative methods...
+2025-07-26 10:37:55,037 - INFO - Trying alternative data extraction methods...
+2025-07-26 10:37:55,038 - INFO - Trying to download data from: https://globalenergymonitor.org/wp-content/uploads/2023/04/Global-Coal-Plant-Tracker-April-2023.xlsx
+2025-07-26 10:37:56,367 - INFO - Trying to download data from: https://globalenergymonitor.org/wp-content/uploads/2024/01/Global-Coal-Plant-Tracker-January-2024.xlsx
+2025-07-26 10:37:58,923 - INFO - Trying to download data from: https://docs.google.com/spreadsheets/d/1W-gobEQugqTR_PP0iczJCrdaR5fWYjIl
+2025-07-26 10:37:59,415 - INFO - Trying to download data from: https://globalenergymonitor.org/projects/global-coal-plant-tracker/download-data/
+2025-07-26 10:38:06,344 - WARNING - All alternative methods failed
+2025-07-26 10:38:06,346 - ERROR - Failed to extract any data
+2025-07-26 10:55:34,539 - INFO - Starting Enhanced Global Coal Plant Tracker data extraction...
+2025-07-26 10:55:34,539 - INFO - Step 1: Trying known data sources...
+2025-07-26 10:55:34,539 - INFO - Trying known data sources...
+2025-07-26 10:55:34,539 - INFO - Trying: https://raw.githubusercontent.com/GlobalEnergyMonitor/global-coal-plant-tracker/main/data/coal_plants.csv
+2025-07-26 10:55:34,634 - INFO - Trying: https://raw.githubusercontent.com/GlobalEnergyMonitor/GCPT/main/Global%20Coal%20Plant%20Tracker.xlsx
+2025-07-26 10:55:34,735 - INFO - Trying: https://globalenergymonitor.org/wp-content/uploads/2024/07/Global-Coal-Plant-Tracker-July-2024.xlsx
+2025-07-26 10:55:49,220 - INFO - Successfully extracted 14004 records from https://globalenergymonitor.org/wp-content/uploads/2024/07/Global-Coal-Plant-Tracker-July-2024.xlsx
+2025-07-26 10:55:49,241 - INFO - Successfully extracted 14004 coal plant records
+2025-07-26 10:55:49,241 - INFO - Cleaning and standardizing data...
+2025-07-26 10:55:49,490 - INFO - Data cleaned. Final dataset has 7598 records
+2025-07-26 10:55:49,584 - INFO - Data saved to global_coal_plant_tracker_data.csv
+2025-07-26 10:55:51,447 - INFO - Data saved to global_coal_plant_tracker_data.xlsx
+2025-07-26 10:55:51,471 - INFO - Summary saved to global_coal_plant_tracker_data_summary.txt

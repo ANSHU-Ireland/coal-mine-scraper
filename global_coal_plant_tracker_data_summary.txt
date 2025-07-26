@@ -1,0 +1,73 @@
+Global Coal Plant Tracker Data Summary
+Generated on: 2025-07-26 10:55:51.448071
+==================================================
+
+Total Records: 7598
+
+Columns:
+  plant_name: 0/7598 non-null values
+  unit_name: 0/7598 non-null values
+  plant_unit_name: 7598/7598 non-null values
+  owner: 7592/7598 non-null values
+  parent_company: 7592/7598 non-null values
+  capacity_mw: 7598/7598 non-null values
+  status: 7598/7598 non-null values
+  start_year: 0/7598 non-null values
+  retired_year: 0/7598 non-null values
+  region: 7598/7598 non-null values
+  country_area: 7598/7598 non-null values
+  subnational_unit: 0/7598 non-null values
+  latitude: 7598/7598 non-null values
+  longitude: 7598/7598 non-null values
+  technology: 0/7598 non-null values
+  fuel_type: 0/7598 non-null values
+  announced_year: 0/7598 non-null values
+  construction_start: 0/7598 non-null values
+  operating_year: 0/7598 non-null values
+  mothballed_year: 0/7598 non-null values
+  cancelled_year: 0/7598 non-null values
+  wiki_url: 7598/7598 non-null values
+
+Records by Country:
+  China: 2982
+  India: 967
+  United States: 894
+  Indonesia: 263
+  Russia: 257
+  Germany: 195
+  Türkiye: 165
+  Japan: 160
+  Poland: 147
+  Vietnam: 95
+  Philippines: 86
+  Kazakhstan: 76
+  Australia: 62
+  Ukraine: 58
+  South Korea: 53
+  Pakistan: 52
+  South Africa: 52
+  Czech Republic: 49
+  Spain: 46
+  Taiwan: 45
+  ... and 88 more countries
+
+Records by Status:
+  operating: 3351
+  cancelled: 1752
+  retired: 1709
+  construction: 224
+  permitted: 141
+  pre-permit: 121
+  shelved: 114
+  announced: 99
+  mothballed: 87
+
+Capacity Statistics (MW):
+  count: 7598.00
+  mean: 383.35
+  std: 418.36
+  min: 30.00
+  25%: 100.00
+  50%: 300.00
+  75%: 600.00
+  max: 6300.00
